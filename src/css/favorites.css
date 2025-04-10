@@ -1,0 +1,38 @@
+.favoriteslist {
+    width: 100%;
+    min-height: 85vh;
+}
+.favoriteCard, .card-img {
+    height: 100px;
+}
+
+.favoriteTemperature, .favoriteName {
+    font-size: calc(100% * 1.5);
+}
+
+.delete-button {
+    background-color: #003479; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.delete-button:hover {
+    background-color: #cc0000; 
+}
+
+
+.delete-button:active {
+    background-color: #990000; 
+}
+
+
+.delete-button:disabled {
+    background-color: #ff9999; 
+    cursor: not-allowed; 
+}

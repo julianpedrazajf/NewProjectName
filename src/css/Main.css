@@ -1,0 +1,59 @@
+.weather-app {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-container {
+  margin-bottom: 10px;
+}
+
+.location h2 {
+  font-size: calc(100% * 1.5);
+  color: #00181f;
+}
+
+.location p, .loading {
+  font-size: calc(100% * 1.2);
+  color: #00181f;
+}
+
+.weather-info {
+  margin-top: 5px;
+}
+
+.temperature h3 {
+  font-size: calc(100% * 3.3);
+  color: #00181f;
+}
+
+.condition p {
+  font-size: calc(100% * 1.2);
+  color: #00181f;
+}
+
+.weather-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+footer {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.local-time {
+  margin: 0;
+}
